@@ -28,3 +28,7 @@ Route::get('/posts', function () {
 Route::get('/posts/{id}', function ($id) {
     return 'Prova post routes';
 });
+
+Route::get('/games', function () {
+    return 'New games Route';
+});
