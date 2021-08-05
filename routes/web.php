@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return 'Prova git clone';
 });
+
+Route::get('/posts', function () {
+    return 'Prova posts routes';
+});
+
+Route::get('/posts/{id}', function ($id) {
+    return 'Prova post routes';
+});
